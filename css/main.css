@@ -1,0 +1,231 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.header-up_container {
+  width: 100%;
+}
+
+.header-up_container a {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.header-up_container a:hover {
+  color: #F13C6E;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2%;
+}
+
+.nav-item {
+  margin-right: 5%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+  text-decoration: none;
+  /* Dark */
+  color: #333333;
+}
+
+.beauty {
+  padding: 0 20% 0 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2%;
+}
+
+.obrat-feedback {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo-text {
+  text-align: center;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.1em;
+  /* Accent */
+  color: #F13C6E;
+  text-decoration: none;
+}
+
+.feedcall {
+  width: 170px;
+  height: 40px;
+  background: #FFFFFF;
+  /* Accent */
+  border: 2px solid #F13C6E;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 40px;
+  -webkit-transition: all 0 0.2s;
+  transition: all 0 0.2s;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  text-align: center;
+}
+
+.feedcall:hover {
+  border: 4px solid #F13C6E;
+}
+
+.number {
+  margin-right: 20%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #000000;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.obrat-feedback {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.item-menu {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-decoration: none;
+  margin-right: 2%;
+  margin-top: 4%;
+  color: #000000;
+}
+
+.search-header {
+  background: #EFEFEF;
+  border: none;
+  border: 1px solid #858585;
+  border-radius: 40px;
+  width: 250px;
+  height: 40px;
+  padding-left: 5%;
+}
+
+.first-screen {
+  margin-top: 3%;
+  height: 604px;
+  background: url("/img/Rectangle 2.png") 50% 50%;
+  background-size: cover;
+}
+
+.first-screen-main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-left: 20%;
+}
+
+.kreslo {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  color: #FFFFFF;
+}
+
+.lower-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  width: 308px;
+  color: #FFFFFF;
+}
+
+.about {
+  background: #F13C6E;
+  width: 170px;
+  height: 40px;
+  color: #FFFFFF;
+  margin-top: 3%;
+  border: none;
+  border: 2px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 40px;
+}
+/*# sourceMappingURL=main.css.map */
