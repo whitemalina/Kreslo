@@ -366,23 +366,33 @@ html {
 }
 
 .bonus {
+  margin-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .gift {
   width: 540px;
   height: 212px;
   background: #F13C6E;
-  margin-right: 5%;
-  margin-bottom: 5%;
+  margin-right: 30px;
 }
 
 .gift-container {
   margin: 35px 45px 44px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .gift-container h1 {
@@ -417,13 +427,24 @@ html {
 .shops {
   width: 540px;
   height: 212px;
-  -webkit-box-flex: 2;
-      -ms-flex: 2 1 auto;
-          flex: 2 1 auto;
   background: #F13C6E;
 }
 
-.shops h1 {
+.shops-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 35px 45px 44px 40px;
+}
+
+.shops-container h1 {
+  margin-top: 35px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -433,7 +454,8 @@ html {
   color: #FFFFFF;
 }
 
-.shops h2 {
+.shops-container h2 {
+  margin-top: 25px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -442,7 +464,7 @@ html {
   color: #FFFFFF;
 }
 
-.shops button {
+.shops-container button {
   width: 170px;
   height: 35px;
   margin-top: 25px;
@@ -455,9 +477,93 @@ html {
   border-radius: 30px;
 }
 
-.bonus {
+.brands {
+  background: #EFEFEF;
+}
+
+.brands__container {
+  padding: 100px 405px 0 405px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 119px;
+  width: 215px;
+  border: 2px solid #EFEFEF;
+  background-color: #fff;
+}
+
+.cont2 {
+  margin-bottom: 100px;
+}
+
+.footer__container {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__nav {
+  width: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__nav h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140.62%;
+  /* or 22px */
+  color: #000000;
+}
+
+.footer__nav .footer__line {
+  margin-top: 30px;
+  width: 255px;
+  height: 0px;
+  border: 1px solid #EFEFEF;
+  margin-bottom: 25px;
+}
+
+.footer__nav a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 28px;
+  /* or 233% */
+  /* #828282 */
+  color: #828282;
 }
 /*# sourceMappingURL=main.css.map */
