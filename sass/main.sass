@@ -161,7 +161,7 @@ html
 .first-screen
     margin-top: 3%
     height: 604px;
-    background: url("/img/Rectangle 2.png") 50% 50%
+    background: url("../img/Rectangle 2.png") 50% 50%
     background-size: cover;
 .first-screen-main-content
     display: flex
@@ -260,6 +260,13 @@ html
 
         background: #F13C6E;
         border-radius: 30px;
+        transition: all 0.2s
+        &:hover
+            border: 2px solid #F13C6E;
+            background-color: #fff
+            color: #F13C6E
+            box-sizing: border-box;
+            
 .offer
     background: #EFEFEF;
 .bonus
@@ -310,7 +317,7 @@ html
     display: flex
     align-items: center
     justify-content: space-between
-    margin: 35px 45px 44px 40px
+    margin: 15px 45px 44px 40px
     h1
         
         margin-top: 35px
@@ -340,6 +347,10 @@ html
         border: 2px solid #FFFFFF;
         box-sizing: border-box;
         border-radius: 30px;
+        transition: all 0.2s
+        &:hover
+            background-color: #ffffff
+            color: #F13C6E
 .brands
     background: #EFEFEF;
 .brands__container
@@ -397,4 +408,185 @@ html
 
         /* #828282 */
 
+        color: #828282
+        &:hover
+            text-decoration: underline  
+.full__line
+    width: 100%
+    height: 0px
+    border: 1px solid #EFEFEF;
+.footer__contact
+    padding-top: 60px
+    background: #ffffff
+.footer__contact__container
+    padding-bottom: 38px
+    margin-top: 37px
+    display: flex
+    align-items: center
+    text-align: center
+    justify-content: center
+    h1
+        margin-right: 105px
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+
+        color: #000000;
+    h2
+        margin-right: 40px
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+
+
+        color: #000000;
+.footer__social
+    img
+        margin-right: 20px
+        &:nth-last-child(1)
+            margin-right: 205px
+.callback
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    width: 170px;
+    height: 40px;
+    color: #000000;
+    background: #FFFFFF;
+    /* Accent */
+
+    border: 2px solid #F13C6E;
+    box-sizing: border-box;
+    border-radius: 40px;
+    transition: all 0.2s
+    &:hover
+        background-color: #F13C6E
+        color: white
+.footer__copyright
+    height: 64px;
+    background: #EFEFEF;
+.footer__copyright__container
+    height: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    h1
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        /* identical to box height */
+
+
+        /* #828282 */
+
         color: #828282;
+        margin-right: 345px
+    a
+        text-decoration: none
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        /* identical to box height */
+
+        text-align: right;
+
+        /* #828282 */
+
+        color: #828282;
+        &:hover
+            text-decoration: underline
+@media screen and (max-width: 1639px)
+    .products
+        justify-content: center
+    .product
+        margin-right: 2px
+@media screen and (max-width: 1541px)
+    .offer-container
+        padding: 0
+        h1
+            margin-left: 100px
+    .bonus
+        justify-content: center
+        flex-wrap: wrap
+    .brands__container
+        padding: 0
+        padding-top: 50px
+        
+@media screen and (max-width: 1109px)
+    .footer__line
+        width: 100vw
+    .gift
+        margin: 0
+        margin-top: 5px
+    .shops
+        margin-top: 5px
+    .beauty
+        padding: 0
+@media screen and (max-width: 1109px)
+    .footer__container
+        flex-wrap: wrap
+    .footer__nav
+        margin-top: 10px
+    .footer__contact__container
+        flex-direction: column
+        h1
+            margin: 0
+            margin-top: 30px
+        h2
+            margin: 0
+            margin-top: 30px
+    .footer__social
+        display: flex
+        justify-content: space-between
+        align-items: center
+        img
+            margin: 0
+            margin-right: 15px
+            &:nth-last-child(1)
+                margin: 0
+    .callback
+        margin-top: 30px
+    .footer__copyright__container
+        padding: 0 5px 0 5px
+@media screen and (max-width: 985px)
+    .beauty
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        width: 100%
+    .obrat-feedback
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        .number
+            margin: 0
+            margin-top: 10px
+        .feedcall
+            margin-top: 30px
+@media screen and (max-width: 659px) 
+    .footer__copyright__container
+        height: 100%
+        display: flex
+        flex-direction: column
+        h1
+            margin: 0
+        a
+            margin-top: 20px
+@media screen and (max-width: 563px)    
+    .main-menu
+        flex-direction: column
+        justify-content: center
+        align-items: center
+    .item-menu
+        margin-right: 0
