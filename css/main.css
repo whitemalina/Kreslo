@@ -512,12 +512,14 @@ html {
   background-color: #fff;
 }
 
-.cont2 {
-  margin-bottom: 100px;
+.footer {
+  background: #EFEFEF;
+  padding-top: 90px;
 }
 
 .footer__container {
-  margin-top: 60px;
+  padding-top: 60px;
+  background: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
