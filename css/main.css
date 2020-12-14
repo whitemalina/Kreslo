@@ -219,7 +219,7 @@ html {
 .first-screen {
   margin-top: 3%;
   height: 604px;
-  background: url("/img/Rectangle 2.png") 50% 50%;
+  background: url("img/Rectangle 2.png") 50% 50%;
   background-size: cover;
 }
 
